@@ -1,0 +1,23 @@
+body {
+	background-color: #CD8987;
+}
+
+td {
+	border: 2px solid #333;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	vertical-align: middle;
+}
+table {
+	border-collapse: collapse;
+	position: absolute;
+	background-color: white;
+	left: 50%;
+	top:50px;
+	margin-left: -155px;
+}
+
+div.btn {
+	text-align: center;
+}
