@@ -1,11 +1,13 @@
 body {
-	background-color: #CD8987;
+	/* background-color: #CD8987; */
+	background-image: url(tictactoebackground.png);
+	background-repeat: repeat;
 }
 
 td {
 	border: 2px solid #333;
-	height: 100px;
-	width: 100px;
+	height: 150px;
+	width: 150px;
 	text-align: center;
 	vertical-align: middle;
 }
@@ -14,10 +16,14 @@ table {
 	position: absolute;
 	background-color: white;
 	left: 50%;
-	top:50px;
-	margin-left: -155px;
+	top:60px;
+	margin-left: -240px;
 }
 
 div.btn {
 	text-align: center;
+}
+h1 {
+	text-align: center;
+	color: blue
 }
